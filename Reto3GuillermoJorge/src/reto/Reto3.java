@@ -18,7 +18,7 @@ public class Reto3 {
 				Funciones1.pideNombres(sc);
 				break;
 			case 2:
-				
+				Funciones2.menuFrase(sc);
 				break;
 			case 0:
 				key=0;
