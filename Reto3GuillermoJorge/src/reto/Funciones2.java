@@ -1,5 +1,6 @@
 package reto;
 
+import java.util.Scanner;
 
 public class Funciones2 {
 
@@ -48,5 +49,12 @@ public class Funciones2 {
 			}
 		}
 		return palabralarga;
+	}
+	public static void menuFrase(Scanner sc) {
+		System.out.println("Introduce una frase");
+		String frase=sc.nextLine();
+		System.out.println(Funciones2.contarPalabras(frase));
+		System.out.println(Funciones2.invertirFrase(frase));
+		System.out.println(Funciones2.palabraLarga(frase));
 	}
 }
